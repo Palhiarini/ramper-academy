@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ramper Academy | Central de Ajuda</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="topbar">
+        <a href="#" class="logo">
+            <span class="logo-icon">R</span>
+            <span>ramper <span class="logo-light">academy</span></span>
+        </a>
+
+        <nav class="menu" id="menu">
+            <a href="#categorias">Categorias</a>
+            <a href="#videos">Vídeos rápidos</a>
+            <a href="#artigos">Artigos</a>
+        </nav>
+
+        <a href="#ajuda" class="help-link">Central de ajuda ↗</a>
+
+        <button class="menu-button" id="menuButton"
+                aria-label="Abrir menu">☰</button>
+    </header>
+
+    <main>
+
+        <!-- APRESENTAÇÃO -->
+        <section class="hero">
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    CENTRAL DE AJUDA E APRENDIZADO
+                </span>
+
+                <h1>
+                    Encontre respostas.<br>
+                    <span>Avance mais rápido.</span>
+                </h1>
+
+                <p>
+                    Aprenda a aproveitar melhor a Ramper com tutoriais
+                    práticos, vídeos rápidos e respostas para suas dúvidas.
+                </p>
+
+                <form class="search-box" id="searchForm">
+                    <input
+                        type="search"
+                        id="searchInput"
+                        placeholder="O que você precisa aprender hoje?"
+                        aria-label="Pesquisar conteúdos"
+                    >
+
+                    <button type="submit">Buscar →</button>
+                </form>
+
+                <div class="popular-searches">
+                    <span>Mais procurados:</span>
+                    <button data-search="bounce">Bounce</button>
+                    <button data-search="leads">Leads</button>
+                    <button data-search="cadência">Cadências</button>
+                </div>
+
+            </div>
+
+            <div class="hero-decoration">
+                <div class="hero-circle">R<span>.</span></div>
+                <div class="floating-card">
+                    <span>✓</span>
+                    <div>
+                        <strong>Aprenda no seu ritmo</strong>
+                        <small>Conteúdos rápidos e práticos</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORIAS -->
+        <section class="section" id="categorias">
+
+            <div class="section-heading">
+                <span class="eyebrow">EXPLORE POR TEMA</span>
+                <h2>Como podemos ajudar?</h2>
+                <p>Escolha uma categoria para encontrar sua resposta.</p>
+            </div>
+
+            <div class="category-grid">
+
+                <button class="category-card"
+                        data-category="Entregabilidade">
+                    <span class="category-icon green">✉</span>
+                    <span class="card-text">
+                        <strong>Entregabilidade</strong>
+                        <small>Bounces, spam e e-mails</small>
+                    </span>
+                    <span class="arrow">↗</span>
+                </button>
+
+                <button class="category-card"
+                        data-category="Prospecção">
+                    <span class="category-icon blue">◎</span>
+                    <span class="card-text">
+                        <strong>Prospecção</strong>
+                        <small>Leads, listas e cadências</small>
+                    </span>
+                    <span class="arrow">↗</span>
+                </button>
+
+                <button class="category-card"
+                        data-category="Configurações">
+                    <span class="category-icon yellow">⚙</span>
+                    <span class="card-text">
+                        <strong>Configurações</strong>
+                        <small>Ajustes e primeiros passos</small>
+                    </span>
+                    <span class="arrow">↗</span>
+                </button>
+
+                <button class="category-card"
+                        data-category="Dúvidas frequentes">
+                    <span class="category-icon purple">?</span>
+                    <span class="card-text">
+                        <strong>Dúvidas frequentes</strong>
+                        <small>Respostas e tutoriais</small>
+                    </span>
+                    <span class="arrow">↗</span>
+                </button>
+
+            </div>
+        </section>
+
+        <!-- VÍDEOS CURTOS -->
+        <section class="section video-section" id="videos">
+
+            <div class="section-heading">
+                <span class="eyebrow">MICROLEARNING</span>
+                <h2>Aprenda em 60 segundos</h2>
+                <p>Vídeos rápidos para resolver dúvidas sem complicação.</p>
+            </div>
+
+            <div class="video-grid">
+
+                <button class="video-card" data-article="bounce">
+                    <div class="video-thumbnail thumb-green">
+                        <span class="video-category">ENTREGABILIDADE</span>
+                        <span class="play-button">▶</span>
+                        <span class="video-duration">00:45</span>
+                    </div>
+
+                    <div class="video-info">
+                        <h3>Por que meus e-mails dão bounce?</h3>
+                        <p>Entenda as causas mais comuns e o que verificar.</p>
+                        <span class="read-link">Assistir tutorial →</span>
+                    </div>
+                </button>
+
+                <button class="video-card" data-article="leads">
+                    <div class="video-thumbnail thumb-blue">
+                        <span class="video-category">PROSPECÇÃO</span>
+                        <span class="play-button">▶</span>
+                        <span class="video-duration">00:50</span>
+                    </div>
+
+                    <div class="video-info">
+                        <h3>Como melhorar sua lista de leads?</h3>
+                        <p>Aprenda a organizar melhor seus contatos.</p>
+                        <span class="read-link">Assistir tutorial →</span>
+                    </div>
+                </button>
+
+                <button class="video-card" data-article="cadencia">
+                    <div class="video-thumbnail thumb-purple">
+                        <span class="video-category">CADÊNCIAS</span>
+                        <span class="play-button">▶</span>
+                        <span class="video-duration">00:40</span>
+                    </div>
+
+                    <div class="video-info">
+                        <h3>Como organizar seus follow-ups?</h3>
+                        <p>Organize os próximos passos da prospecção.</p>
+                        <span class="read-link">Assistir tutorial →</span>
+                    </div>
+                </button>
+
+            </div>
+
+            <p class="demo-note">
+                Os vídeos são demonstrativos nesta primeira versão.
+            </p>
+        </section>
+
+        <!-- ARTIGOS -->
+        <section class="section" id="artigos">
+
+            <div class="section-heading">
+                <span class="eyebrow">BASE DE CONHECIMENTO</span>
+                <h2>Guias para o dia a dia</h2>
+                <p>Consulte os conteúdos e encontre soluções práticas.</p>
+            </div>
+
+            <div class="filter-list">
+                <button class="filter active" data-filter="Todos">Todos</button>
+                <button class="filter" data-filter="Entregabilidade">
+                    Entregabilidade
+                </button>
+                <button class="filter" data-filter="Prospecção">
+                    Prospecção
+                </button>
+                <button class="filter" data-filter="Configurações">
+                    Configurações
+                </button>
+            </div>
+
+            <div class="article-grid" id="articleGrid"></div>
+
+            <div class="empty-state hidden" id="emptyState">
+                <h3>Nenhum conteúdo encontrado</h3>
+                <p>Tente pesquisar outro termo.</p>
+                <button id="resetSearch">Limpar pesquisa</button>
+            </div>
+
+        </section>
+
+        <!-- CONTATO -->
+        <section class="help-banner" id="ajuda">
+            <div class="help-symbol">?</div>
+
+            <div class="help-text">
+                <span class="eyebrow">AINDA PRECISA DE AJUDA?</span>
+                <h2>Estamos aqui para ajudar.</h2>
+                <p>
+                    Se não encontrou a resposta, procure o canal oficial
+                    de atendimento da sua conta.
+                </p>
+            </div>
+
+            <a href="mailto:suporte@ramper.com.br" class="contact-button">
+                Entrar em contato →
+            </a>
+        </section>
+
+    </main>
+
+   
+<!-- JANELA PARA LEITURA DOS ARTIGOS -->
+<div id="modalBackground" class="modal-background" aria-hidden="true">
+    <div
+        id="articleModal"
+        class="article-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+    >
+        <button
+            id="modalClose"
+            class="modal-close"
+            type="button"
+            aria-label="Fechar artigo"
+        >×</button>
+
+        <span id="modalCategory" class="section-label"></span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalIntro" class="modal-intro"></p>
+
+        <div id="modalBody" class="modal-body"></div>
+
+        <button id="modalDone" class="modal-done" type="button">
+            Entendi
+        </button>
+    </div>
+</div>
+
+
+    <footer>
+        <a href="#" class="logo">
+            <span class="logo-icon">R</span>
+            <span>ramper <span class="logo-light">academy</span></span>
+        </a>
+
+        <p>Protótipo demonstrativo para evolução da central de ajuda.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
